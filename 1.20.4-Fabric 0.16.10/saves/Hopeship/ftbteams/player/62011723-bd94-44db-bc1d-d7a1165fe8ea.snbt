@@ -1,0 +1,17 @@
+{
+	id: "62011723-bd94-44db-bc1d-d7a1165fe8ea"
+	type: "player"
+	player_name: "Bigtailwolf555"
+	ranks: {
+		62011723-bd94-44db-bc1d-d7a1165fe8ea: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Bigtailwolf555"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFF9"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

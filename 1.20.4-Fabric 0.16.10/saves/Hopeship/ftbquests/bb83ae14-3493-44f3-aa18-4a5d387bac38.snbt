@@ -1,0 +1,22 @@
+{
+	version: 1
+	uuid: "bb83ae14349344f3aa184a5d387bac38"
+	name: "Cocktail_Royal#bb83ae14"
+	lock: false
+	rewards_blocked: false
+	task_progress: {
+		551A4739E97CA7AE: 1
+	}
+	started: {
+		551A4739E97CA7AE: 1742845362372L
+		3EACE353DABA3274: 1742845362372L
+		0000000000000001: 1742845362372L
+		5FF1A0049BFF8408: 1742845362372L
+	}
+	completed: {
+		551A4739E97CA7AE: 1742845362390L
+		5FF1A0049BFF8408: 1742845362390L
+	}
+	claimed_rewards: { }
+	player_data: { }
+}

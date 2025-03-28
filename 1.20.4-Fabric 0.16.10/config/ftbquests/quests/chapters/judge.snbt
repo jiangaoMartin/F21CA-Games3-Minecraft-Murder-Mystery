@@ -1,0 +1,67 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "judge"
+	group: "54A452CC3BAA03C0"
+	icon: {
+		Count: 1
+		id: "minecraft:goat_horn"
+		tag: {
+			instrument: "minecraft:dream_goat_horn"
+		}
+	}
+	id: "726C538642346B80"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "384997DB851D9B82"
+			rewards: [{
+				command: "/tp @a 95 -60 51"
+				id: "4B5C60B1089CE3D0"
+				title: "Result"
+				type: "command"
+			}]
+			tasks: [{
+				id: "6E8395ABF7AE031A"
+				type: "checkmark"
+			}]
+			title: "Emily is the murderer."
+			x: -8.5d
+			y: -1.0d
+		}
+		{
+			id: "45A01A051AC9F1CA"
+			rewards: [{
+				command: "/tp @a 95 -60 51"
+				id: "7B69D0178472464A"
+				title: "Result"
+				type: "command"
+			}]
+			tasks: [{
+				id: "5F8AF76A1A12B1A9"
+				type: "checkmark"
+			}]
+			title: "Sophia is the murderer."
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			id: "1DC8CC78D942D300"
+			rewards: [{
+				command: "/tp @a 90 -60 51"
+				id: "5DFC15EF332100B0"
+				title: "Result"
+				type: "command"
+			}]
+			tasks: [{
+				id: "4831C7BC197B7FFF"
+				type: "checkmark"
+			}]
+			title: "Micheal is the murderer."
+			x: -4.5d
+			y: -1.0d
+		}
+	]
+	title: "judge"
+}

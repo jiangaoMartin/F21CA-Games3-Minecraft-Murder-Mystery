@@ -1,0 +1,17 @@
+{
+	id: "bb83ae14-3493-44f3-aa18-4a5d387bac38"
+	type: "player"
+	player_name: "Cocktail_Royal"
+	ranks: {
+		bb83ae14-3493-44f3-aa18-4a5d387bac38: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Cocktail_Royal"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFE8"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

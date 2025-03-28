@@ -1,0 +1,13 @@
+{
+  "apiKey": "",
+  "url": "",
+  "model": "gpt-4o",
+  "maxContextTokens": 16385,
+  "maxOutputTokens": 200,
+  "percentOfContext": 0.75,
+  "timeout": 60,
+  "chatBubbles": true,
+  "whitelist": [],
+  "blacklist": [],
+  "story": ""
+}

@@ -1,0 +1,116 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "586028BCF9016D1A"
+	icon: "minecraft:red_candle"
+	id: "3EACE353DABA3274"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["a tagboard "]
+			id: "52E2EFBEF6B40528"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DCC8C8041187ADE"
+				table_id: 6663515164368046514L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "7965A1540E243081"
+				type: "checkmark"
+			}]
+			title: "tagboard"
+			x: -10.5d
+			y: -2.5d
+		}
+		{
+			id: "2359AAC873605E1D"
+			tasks: [{
+				id: "5CAAEE81EECA21E3"
+				type: "checkmark"
+			}]
+			title: "tagboard"
+			x: -20.5d
+			y: -3.0d
+		}
+		{
+			description: ["{image:minecraft:textures/block/05m_chain_s.png width:100 height:100 align:center}"]
+			id: "508AFF682BD82FE9"
+			tasks: [{
+				id: "7E3F3B91348FD49B"
+				title: "tagboard"
+				type: "checkmark"
+			}]
+			x: -37.0d
+			y: -2.5d
+		}
+		{
+			id: "5FF1A0049BFF8408"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:oak_log"
+				id: "551A4739E97CA7AE"
+				title: "tagboard"
+				type: "dimension"
+			}]
+			x: -89.0d
+			y: -19.5d
+		}
+		{
+			description: ["There may be ideas"]
+			id: "1D57C7E0CA5AA8DA"
+			rewards: [{
+				command: "/say Nice try, @p!"
+				id: "6213353C6E51C8F0"
+				title: "tip1"
+				type: "command"
+			}]
+			subtitle: "chat with Emily"
+			tasks: [{
+				id: "100E2A674B4C96AF"
+				title: "think1"
+				type: "checkmark"
+			}]
+			title: "chat 1"
+			x: -62.5d
+			y: -11.5d
+		}
+		{
+			id: "03561386289F7F84"
+			rewards: [{
+				command: "/say It seems to be close to the truth, @p!"
+				id: "24CB30FD02905E26"
+				title: "nice try"
+				type: "command"
+			}]
+			tasks: [{
+				id: "7BAC6F475A68D4D3"
+				title: "think2"
+				type: "checkmark"
+			}]
+			title: "chat with  Sophia"
+			x: -59.5d
+			y: -11.5d
+		}
+		{
+			id: "26ABFFCC8C90C084"
+			rewards: [{
+				command: "/say Nice try, @p!"
+				id: "2761996300AAFCC1"
+				title: "tip"
+				type: "command"
+			}]
+			tasks: [{
+				id: "23338A028F67F78E"
+				title: "think3"
+				type: "checkmark"
+			}]
+			title: "chat with  Michael"
+			x: -56.5d
+			y: -11.5d
+		}
+	]
+	title: "simple chat"
+}

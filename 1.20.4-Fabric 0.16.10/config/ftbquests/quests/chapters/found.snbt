@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "found"
+	group: "3DA8EBC0BE39AE77"
+	icon: "minecraft:map"
+	id: "01760F3197CE06AA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "50F618B2BCEC69FD"
+			rewards: [
+				{
+					id: "6AC7A606D32704B4"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							display: {
+								Name: "\"Micheal addtion1\""
+							}
+							pages: ["Think about why the silver cup turned black"]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/say Think about why the silver cup turned black..."
+					id: "6BED98A5A692C966"
+					title: "tip1"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7EC9C9F2B3BC9231"
+				item: {
+					Count: 1
+					id: "minecraft:glass_bottle"
+					tag: {
+						display: {
+							Name: "\"Strange silver cup\""
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			id: "77C16A59A30AC14B"
+			rewards: [
+				{
+					id: "51EA665AB852879E"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							display: {
+								Name: "\"Micheal addtion3\""
+							}
+							pages: ["Bullets!"]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/say Bullets!"
+					id: "5A14FD1CA232728A"
+					title: "tip3"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4DB420F349C56557"
+				item: {
+					Count: 1
+					id: "minecraft:paper"
+					tag: {
+						display: {
+							Name: "\"Bullet label paper\""
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			id: "5E65B9C034F1D4DB"
+			rewards: [
+				{
+					id: "2DA7434AE11E3CDA"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							display: {
+								Name: "\"Micheal addtion2\""
+							}
+							pages: ["David was making regular transfers to Michael! Could there be a hidden secret?"]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/say David was making regular transfers to Michael! Could there be a hidden secret?"
+					id: "33A9FCF352E98A4C"
+					title: "tip2"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "5D26EB742C18A9EC"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:vanishing_curse"
+							lvl: 1s
+						}]
+						display: {
+							Name: "\"Michael's passbook\""
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "found with Micheal"
+}

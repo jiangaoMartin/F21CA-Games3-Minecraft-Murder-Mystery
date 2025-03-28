@@ -1,0 +1,20 @@
+{
+	id: "5C798FBCB79609B2"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "think1"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [{
+		description: ""
+		title: "good job"
+		type: "toast"
+	}]
+	title: "think1"
+}

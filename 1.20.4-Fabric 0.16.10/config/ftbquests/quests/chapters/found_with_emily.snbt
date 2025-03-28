@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "found_with_emily"
+	group: "3DA8EBC0BE39AE77"
+	id: "12EE98686B3682B6"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "098BAA3ED9E6E7D8"
+			rewards: [
+				{
+					id: "15393E35F10634AD"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							display: {
+								Name: "\"Emily addtion1\""
+							}
+							pages: ["A strange-looking chocolate! Ask Emily what’s inside it."]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/say A strange-looking chocolate! Ask Emily what’s inside it."
+					id: "54345D405D3D7808"
+					title: "tip1"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "02C08CDECEEABDE8"
+				item: {
+					Count: 1
+					id: "minecraft:netherite_scrap"
+					tag: {
+						display: {
+							Name: "\"Chocolate for hiding drugs\""
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			id: "240D02F902F933AC"
+			rewards: [
+				{
+					id: "5D1E0D79F9E9030A"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							display: {
+								Name: "\"Emily addtion2\""
+							}
+							pages: ["Why is David’s dirty uniform here? Could it be a clue?"]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/say Why is David’s dirty uniform here? Could it be a clue?"
+					id: "4CBB9DCA96B89190"
+					title: "tip2"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "23619EC8DFD1822F"
+				item: {
+					Count: 1
+					id: "minecraft:leather_chestplate"
+					tag: {
+						Damage: 0
+						display: {
+							Name: "\"David's uniform\""
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "think2"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "0FC7CD45BDB479E2"
+			rewards: [
+				{
+					id: "26D2BFAC75DBA93D"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							display: {
+								Name: "\"Emily addtion3\""
+							}
+							pages: ["Think about it—what could concentrated sulfuric acid be used for?"]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/say Think about it—what could concentrated sulfuric acid be used for?"
+					id: "1C60B486D4E6F7E0"
+					title: "tip3"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "54C5C133375BB0F5"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_harming"
+						display: {
+							Name: "\"Used sulfuric acid\""
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "think3"
+			x: 1.0d
+			y: -0.5d
+		}
+	]
+	title: "found with Emily"
+}

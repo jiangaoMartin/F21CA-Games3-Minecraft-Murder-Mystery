@@ -1,0 +1,1 @@
+yusei.some.example.key = My Example Value

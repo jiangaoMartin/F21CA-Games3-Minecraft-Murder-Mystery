@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/mwjwj/AppData/Roaming/.minecraft/versions/1.20.4-Fabric 0.16.10/saves/Hopeship
+}
+

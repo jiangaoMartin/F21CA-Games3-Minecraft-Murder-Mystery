@@ -1,0 +1,50 @@
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/time set midnight
+/gamemode adventure
+/creaturechat url set "https://heriotwattmcopenai.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview"
+/creaturechat key set "588zUXdKJveTrGFPSFiwc5pEKvanKJ5IvL95gCpzUCrQNWZm6PrhJQQJ99BCACYeBjFXJ3w3AAABACOGx8ww"
+/creaturechat model set gpt-4o
+/creaturechat timeout set 60
+/creaturechat url set "https://heriotwattmcopenai.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2024-08-01-preview"
+/creaturechat key set "588zUXdKJveTrGFPSFiwc5pEKvanKJ5IvL95gCpzUCrQNWZm6PrhJQQJ99BCACYeBjFXJ3w3AAABACOGx8ww"
+/creaturechat model set gpt-4o
+/creaturechat timeout set 60
+/time set midnight
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/time set midnight
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/time set midnight
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/time set midnight
+/gamemode creative
+/time set midnight
+/gamemode creative
+/time set midnight
+/gamemode adventure
+/gamemode
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/gamemode adventure
+/gamemode creative
+/gamemode adventure
+/time set midnight
+/gamemode adventure
+/gamemode creative
+/gamemode adventure

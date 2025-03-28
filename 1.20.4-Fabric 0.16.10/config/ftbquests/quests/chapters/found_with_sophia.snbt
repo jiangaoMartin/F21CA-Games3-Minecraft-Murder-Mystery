@@ -1,0 +1,136 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "found_with_sophia"
+	group: "3DA8EBC0BE39AE77"
+	id: "1873AC0058D02DC2"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "26CFCA5CA48FB4D2"
+			rewards: [
+				{
+					id: "69C31464499D05F4"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							display: {
+								Name: "\"Sophia addtion2\""
+							}
+							pages: ["A bloodstained hairpin! Could Sophia be involved? Question her now！"]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/say A bloodstained hairpin! Could Sophia be involved? Question her now！"
+					id: "46AA77236A3B7947"
+					title: "tip2"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "70E7BF982B813340"
+				item: {
+					Count: 1
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:healing"
+						display: {
+							Name: "\"Bloody metal hairpins\""
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "think2"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			id: "3EBD75899B6F8F0D"
+			rewards: [
+				{
+					id: "5C3A946C716C4476"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							display: {
+								Name: "\"Sophia addtion3\""
+							}
+							pages: ["A photo of David marked with many red crosses! Question its owner about this\n"]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/say A photo of David marked with many red crosses! Question its owner about this"
+					id: "4C3EEC2B227D886A"
+					title: "tip3"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3C619F513B76C8B9"
+				item: {
+					Count: 1
+					id: "minecraft:rib_armor_trim_smithing_template"
+					tag: {
+						display: {
+							Name: "\"Tagged pictures of David\""
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "think3"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "2A9490E51CB95F37"
+			rewards: [
+				{
+					id: "3765BF9F8AF5147C"
+					item: {
+						Count: 1
+						id: "minecraft:writable_book"
+						tag: {
+							display: {
+								Name: "\"Sophia addtion1\""
+							}
+							pages: ["You found evidence of Sophia's million-dollar debt. Ask her if this caused conflict with David."]
+						}
+					}
+					type: "item"
+				}
+				{
+					command: "/say You found evidence of Sophia's million-dollar debt. Ask her if this caused conflict with David."
+					id: "0A8D48CE1963BA6C"
+					title: "tip1"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "30DF15767D5F0957"
+				item: {
+					Count: 1
+					id: "minecraft:map"
+					tag: {
+						display: {
+							Name: "\"1 million certificate of debt\""
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "think1"
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "found with Sophia"
+}

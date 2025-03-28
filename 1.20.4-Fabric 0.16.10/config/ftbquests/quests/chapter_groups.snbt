@@ -1,0 +1,7 @@
+{
+	chapter_groups: [
+		{ id: "586028BCF9016D1A", title: "First act" }
+		{ id: "3DA8EBC0BE39AE77", title: "second act" }
+		{ id: "54A452CC3BAA03C0", title: "final act" }
+	]
+}
