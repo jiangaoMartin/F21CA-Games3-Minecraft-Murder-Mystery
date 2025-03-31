@@ -40,15 +40,14 @@ This project presents a fully voice-interactive murder mystery game built inside
 
 ## Game Screenshots
 
-### 1. Crime Scene (Storage Room)
-![Crime Scene](assets/crime_scene.png)
-
-### 2. Suspect Room (Interior)
-![Room](assets/room.png)
-
-### 3. Cruise Ship Exterior
+### 1. Cruise Ship Exterior
 ![Ship](assets/Ship.png)
 
+### 2. Crime Scene (Storage Room)
+![Crime Scene](assets/crime_scene.png)
+
+### 3. Suspect Room (Interior)
+![Room](assets/room.png)
 
 ## Technologies Used
 
