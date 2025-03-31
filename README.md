@@ -2,43 +2,55 @@
 
 This project presents a fully voice-interactive murder mystery game built inside **Minecraft**, featuring **LLM-powered NPCs**, immersive narrative design, and real-time dialogue. Players interact naturally with NPCs to investigate a murder case aboard a luxury cruise ship and deduce the true culprit.
 
-## 🔍 Project Highlights
+## Project Highlights
 
-- 🎮 **Minecraft + AI Integration**  
+- **Minecraft + AI Integration**  
   Built on **Minecraft Fabric 1.20.4** with Java 17 using the **CreatureChat mod**, this game transforms traditional gameplay into a fully voice-enabled mystery-solving experience.
 
-- 🤖 **LLM-Driven NPCs**  
+- **LLM-Driven NPCs**  
   Each suspect is powered by **OpenAI GPT-4o**, configured with prompt engineering techniques including:
   - Chain-of-thought reasoning
   - Role-playing persona prompts
   - Counterfactual misleading
   - Unreliable narration (for the culprit)
 
-- 🎙️ **Voice Interaction Pipeline**
+- **Voice Interaction Pipeline**
   - **ASR (Speech-to-Text):** Microsoft Dictation for real-time transcription
   - **LLM Querying:** Azure OpenAI API for context-aware NPC responses
   - **TTS (Text-to-Speech):** Baidu TTS API for dynamic, emotional voice playback
 
-- 🗺️ **Narrative Design & Gameplay**
+- **Narrative Design & Gameplay**
   - Explore the cruise ship
   - Discover hidden clues
   - Interrogate suspicious characters
   - Track achievements and identify the murderer!
 
-- 📊 **Evaluation**
+- **Evaluation**
   - Improved LLM accuracy, relevance, and emotional consistency to **100%**
   - 80% player success rate in identifying the correct suspect
   - User testing, questionnaires, and safety optimization included
 
-## 🧩 Gameplay Flow
+## Gameplay Flow
 
-1. 📘 Learn the backstory from an in-game book
-2. 🚢 Explore the cruise ship and find evidence
-3. 👥 Talk to 3 suspects with open-ended voice dialogue
-4. 🧠 Analyze contradictions and synthesize clues
-5. 🕵️‍♀️ Make your final accusation!
+1. Learn the backstory from an in-game book
+2. Explore the cruise ship and find evidence
+3. Talk to 3 suspects with open-ended voice dialogue
+4. Analyze contradictions and synthesize clues
+5. Make your final accusation!
 
-## 🛠️ Technologies Used
+## Game Screenshots
+
+### 1. Crime Scene (Storage Room)
+![Crime Scene](assets/crime_scene.png)
+
+### 2. Suspect Room (Interior)
+![Room](assets/room.png)
+
+### 3. Cruise Ship Exterior
+![Ship](assets/Ship.png)
+
+
+## Technologies Used
 
 | Component | Tech |
 |----------|------|
@@ -50,19 +62,7 @@ This project presents a fully voice-interactive murder mystery game built inside
 | Programming Languages | Java, Python |
 | Prompt Techniques | CoT, Role-based, Emotion tagging |
 
-## 📂 Repository Structure
-
-```
-.
-├── /src/                     # Modded Minecraft code (CreatureChat modifications)
-├── /docs/                    # Project report and evaluation results
-├── /prompts/                 # Prompt templates for each NPC
-├── /scripts/                 # Python scripts for testing/evaluation
-├── /assets/                  # In-game images, UI, and map resources
-├── README.md
-```
-
-## 🧠 Characters & Roles
+## Characters & Roles
 
 | Name      | Role             | Description |
 |-----------|------------------|-------------|
@@ -72,7 +72,7 @@ This project presents a fully voice-interactive murder mystery game built inside
 | David     | Victim (NPC)     | Abusive officer involved in drug trafficking |
 | Christopher | Player Character | The Captain and game’s detective |
 
-## 🚀 Getting Started
+## Getting Started
 
 > Note: This game requires **Minecraft Java Edition 1.20.4** and the **Fabric mod loader**.
 
@@ -82,11 +82,11 @@ This project presents a fully voice-interactive murder mystery game built inside
 4. Configure your API keys for OpenAI and Baidu TTS
 5. Launch the game and start the investigation!
 
-## 📄 Paper
+## Paper
 
-📄 Read our full technical report and evaluation results [here](./docs/minecraft_llm_npc_report.pdf) *(or link to arXiv, if applicable)*.
+Read our full technical report and evaluation results [here](./docs/minecraft_llm_npc_report.pdf) *(or link to arXiv, if applicable)*.
 
-## 👥 Authors
+## Authors
 
 - Jiangao Ma  
 - Junlin Wu  
@@ -100,15 +100,15 @@ This project presents a fully voice-interactive murder mystery game built inside
 - Yifan Zheng  
 - Lin Sun  
 
-🎓 *Developed at Heriot-Watt University, F21CA Games3 Project*
+*Developed at Heriot-Watt University, F21CA Games3 Project*
 
-## 📬 Contact
+## Contact
 
 For questions or feedback, feel free to reach out:  
-📧 jm2075@hw.ac.uk, jw2054@hw.ac.uk
+jm2075@hw.ac.uk, jw2054@hw.ac.uk
 
 ---
 
-## 📘 License
+## License
 
 This project is for academic and demonstration purposes. See [`LICENSE`](./LICENSE) for details.
