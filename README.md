@@ -116,7 +116,8 @@ creaturechat timeout set 60
 
 ## Paper
 
-Read our full technical report and evaluation results [here](assets/Design and Evaluation of LLM-Driven NPCs for a Minecraft Murder Mystery.pdf)
+Read our full technical report and evaluation results [here](assets/Design%20and%20Evaluation%20of%20LLM-Driven%20NPCs%20for%20a%20Minecraft%20Murder%20Mystery.pdf)
+
 
 ## Authors
 
