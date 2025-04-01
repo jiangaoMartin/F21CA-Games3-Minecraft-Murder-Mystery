@@ -133,6 +133,8 @@ Read our full technical report and evaluation results [here](assets/Design%20and
 - Yifan Zheng  
 - Lin Sun  
 
+**Supervisor**: Prof. Oliver Lemon
+
 *Developed at Heriot-Watt University, F21CA Games3 Project*
 
 ## Contact
