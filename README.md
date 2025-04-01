@@ -90,7 +90,7 @@ Built on **Minecraft Fabric 1.20.4** with Java 17 using the [**CreatureChat mod*
 
 4. **Configure API keys**  
    - Set your **OpenAI API key** for LLM queries (GPT-4o)  
-   Configuration should be done in the CreatureChat mod settings or an external config file (details provided in `/docs/`).
+   Configuration should be done in the CreatureChat mod settings or an external config file.
 
 5. **Launch the game**  
    Start Minecraft using the Fabric profile, enter the world, and begin your investigation!
@@ -112,6 +112,7 @@ creaturechat url set "YOUR_API_URL"
 creaturechat key set "YOUR_API_KEY"
 creaturechat model set gpt-4o
 creaturechat timeout set 60
+```
 
 ## Paper
 
