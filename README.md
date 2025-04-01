@@ -1,11 +1,14 @@
 # F21CA-Games3: Minecraft Murder Mystery with LLM-Driven NPCs
 
-This project presents a fully voice-interactive murder mystery game built inside **Minecraft**, featuring **LLM-powered NPCs**, immersive narrative design, and real-time dialogue. Players interact naturally with NPCs to investigate a murder case aboard a luxury cruise ship and deduce the true culprit.
+This project was developed as part of the F21CA - Conversational Agents and Spoken Language Processing course at Heriot-Watt University, created by the 4th year Games3 group.
+
+## Project Introduction
+
+This is a fully voice-interactive murder mystery game built inside **Minecraft**, featuring **LLM-powered NPCs**, immersive narrative design, and real-time dialogue. Players interact naturally with NPCs to investigate a murder case aboard a luxury cruise ship and deduce the true culprit.
 
 ## Project Highlights
 
-- **Minecraft + AI Integration**  
-  Built on **Minecraft Fabric 1.20.4** with Java 17 using the **CreatureChat mod**, this game transforms traditional gameplay into a fully voice-enabled mystery-solving experience.
+Built on **Minecraft Fabric 1.20.4** with Java 17 using the [**CreatureChat mod**](https://modrinth.com/mod/mcmti), this game transforms traditional gameplay into a fully voice-enabled mystery-solving experience.
 
 - **LLM-Driven NPCs**  
   Each suspect is powered by **OpenAI GPT-4o**, configured with prompt engineering techniques including:
@@ -25,11 +28,6 @@ This project presents a fully voice-interactive murder mystery game built inside
   - Interrogate suspicious characters
   - Track achievements and identify the murderer!
 
-- **Evaluation**
-  - Improved LLM accuracy, relevance, and emotional consistency to **100%**
-  - 80% player success rate in identifying the correct suspect
-  - User testing, questionnaires, and safety optimization included
-
 ## Gameplay Flow
 
 1. Learn the backstory from an in-game book
@@ -48,6 +46,12 @@ This project presents a fully voice-interactive murder mystery game built inside
 
 ### 3. Suspect Room (Interior)
 ![Room](assets/room.png)
+
+## Gameplay Demo
+
+[![Watch the demo video](https://img.youtube.com/vi/tVd3QYc0fU8/0.jpg)](https://youtu.be/tVd3QYc0fU8)
+
+
 
 ## Technologies Used
 
@@ -73,17 +77,45 @@ This project presents a fully voice-interactive murder mystery game built inside
 
 ## Getting Started
 
-> Note: This game requires **Minecraft Java Edition 1.20.4** and the **Fabric mod loader**.
+> Requirements: **Minecraft Java Edition 1.20.4**, **Fabric mod loader**, and access to **Azure OpenAI** APIs.
 
-1. Clone this repository
-2. Set up Minecraft with [Fabric](https://fabricmc.net/) and [PCL2](https://github.com/HexoMod/PCL2)
-3. Place the mod files inside your `.minecraft/mods` directory
-4. Configure your API keys for OpenAI and Baidu TTS
-5. Launch the game and start the investigation!
+1. **Clone this repository**  
+   Download or clone the project to your local machine.
+
+2. **Install Minecraft Fabric 1.20.4**  
+   Set up [Fabric](https://fabricmc.net/) as your Minecraft mod loader. We recommend using [PCL2](https://github.com/Hex-Dragon/PCL2/releases) for ease of management.
+
+3. **Add the correct version folder**  
+   Place the `1.20.4-Fabric 0.16.10` folder into your `.minecraft/versions/` directory. This ensures Minecraft loads the correct environment.
+
+4. **Configure API keys**  
+   - Set your **OpenAI API key** for LLM queries (GPT-4o)  
+   Configuration should be done in the CreatureChat mod settings or an external config file (details provided in `/docs/`).
+
+5. **Launch the game**  
+   Start Minecraft using the Fabric profile, enter the world, and begin your investigation!
+
+### API Key Setup
+
+You will need valid API keys to connect the in-game NPCs to the LLM services.
+
+#### Azure OpenAI API
+You can obtain your OpenAI GPT-4o key via:
+- [Azure for Students](https://azure.microsoft.com/en-gb/free/students)
+- [Azure Portal](https://portal.azure.com)
+
+#### In-Game Configuration
+Once in Minecraft, press `T` to open the chat and configure the CreatureChat mod with the following commands:
+
+```plaintext
+creaturechat url set "YOUR_API_URL"
+creaturechat key set "YOUR_API_KEY"
+creaturechat model set gpt-4o
+creaturechat timeout set 60
 
 ## Paper
 
-Read our full technical report and evaluation results [here](./docs/minecraft_llm_npc_report.pdf) *(or link to arXiv, if applicable)*.
+Read our full technical report and evaluation results [here](assets/Design and Evaluation of LLM-Driven NPCs for a Minecraft Murder Mystery.pdf)
 
 ## Authors
 
