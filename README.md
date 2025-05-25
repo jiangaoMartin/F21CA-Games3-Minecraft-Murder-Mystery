@@ -75,6 +75,11 @@ Built on **Minecraft Fabric 1.20.4** with Java 17 using the [**CreatureChat mod*
 | David     | Victim (NPC)     | Abusive officer involved in drug trafficking |
 | Christopher | Player Character | The Captain and game’s detective |
 
+## Prompt Files
+
+Character prompts used to configure the three main NPCs (Michael, Sophia, and Emily) are included in the `prompts/` folder. These files define each character's background and behavior for LLM-based dialogue.
+
+
 ## Getting Started
 
 > Requirements: **Minecraft Java Edition 1.20.4**, **Fabric mod loader**, and access to **Azure OpenAI** APIs.
