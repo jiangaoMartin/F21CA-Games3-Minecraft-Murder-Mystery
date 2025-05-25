@@ -79,6 +79,14 @@ Built on **Minecraft Fabric 1.20.4** with Java 17 using the [**CreatureChat mod*
 
 Character prompts used to configure the three main NPCs (Michael, Sophia, and Emily) are included in the `prompts/` folder. These files define each character's background and behavior for LLM-based dialogue.
 
+## Evaluation Materials
+
+Detailed evaluation data and sample NPC dialogue responses are provided in the `Evaluation/` folder.  
+These include:
+- NPC interview question sets and character-specific responses
+- Prompt effectiveness analysis on safety, relevance, and emotional consistency
+
+These files complement the findings discussed in the paper and support reproducibility.
 
 ## Getting Started
 
